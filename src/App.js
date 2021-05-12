@@ -2,6 +2,7 @@ import './App.css';
 import React, {Component} from 'react';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
+import Hello from './components/Hello'
 
 class App extends Component{
     render(){
@@ -10,6 +11,7 @@ class App extends Component{
       <h1>Hello this is my first app </h1>
       <Greet/>
       <Welcome></Welcome>
+      <Hello></Hello>
     </div>
   );
 }
