@@ -5,6 +5,9 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Count from './components/Counter'
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+
 
 class App extends Component{
     render(){
@@ -23,11 +26,14 @@ class App extends Component{
       </Greet> */}
       {/* <Greet name="jay" heroname="thor"></Greet> */}
 
-
+{/* 
       <Welcome name="Hrishi"></Welcome>
       <Welcome name=" abhi"></Welcome>
-      <Welcome name="jay"></Welcome>
+      <Welcome name="jay"></Welcome> */}
       {/* <Hello></Hello> */}
+
+      <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick>
 
    
     </div>
