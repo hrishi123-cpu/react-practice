@@ -16,6 +16,7 @@ import React, { Component } from 'react'
          this.state = {
               message: 'hello'
          }
+         //Approch no 3
         //  this.Clickhandler=this.Clickhandler.bind(this)
      }
      Clickhandler(){
@@ -35,8 +36,15 @@ import React, { Component } from 'react'
         return (
             <div>
                 <div>{this.state.message}</div>
-                {/* <button onClick={this.Clickhandler.bind(this)}>Click</button> */}
-                {/* <button onClick={()=> this.Clickhandler()}>Click</button> */}
+                {/* Approch no 1 */}
+                {/* <button onClick={this.Clickhandler.bind(this)}>Click</button> */} 
+
+
+                {/* Approch no 2 */}
+                {/* <button onClick={()=> this.Clickhandler()}>Click</button> */}  
+
+
+                   {/* Approch no 3 and 4  */}
                 <button onClick={ this.Clickhandler}>Click</button>
             </div>
         )
