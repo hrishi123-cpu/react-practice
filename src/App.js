@@ -8,10 +8,20 @@ class App extends Component{
     render(){
   return (
     <div className="App">
-      <h1>Hello this is my first app </h1>
-      <Greet/>
-      <Welcome></Welcome>
-      <Hello></Hello>
+      {/* <h1>Hello this is my first app </h1> */}
+      <Greet name="Hrishi" heroname="ironman">
+        <p>This is children props</p>
+      </Greet>
+      <Greet name=" abhi" heroname="superman">
+        <button>hii</button>
+      </Greet>
+      <Greet name="jay" heroname="thor"></Greet>
+
+
+      <Welcome name="Hrishi"></Welcome>
+      <Welcome name=" abhi"></Welcome>
+      <Welcome name="jay"></Welcome>
+      {/* <Hello></Hello> */}
     </div>
   );
 }
