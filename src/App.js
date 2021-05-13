@@ -7,6 +7,7 @@ import Message from './components/Message'
 import Count from './components/Counter'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 
 class App extends Component{
@@ -32,8 +33,9 @@ class App extends Component{
       <Welcome name="jay"></Welcome> */}
       {/* <Hello></Hello> */}
 
-      <FunctionClick></FunctionClick>
-      <ClassClick></ClassClick>
+      {/* <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick> */}
+      <EventBind></EventBind>
 
    
     </div>
