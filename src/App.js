@@ -12,7 +12,7 @@ class App extends Component{
     <div className="App">
          {/* <Message>
         </Message> */}
-        <Count></Count>
+        {/* <Count></Count> */}
       {/* <h1>Hello this is my first app </h1> */}
 
       {/* <Greet name="Hrishi" heroname="ironman">
@@ -20,13 +20,13 @@ class App extends Component{
       </Greet>
       <Greet name=" abhi" heroname="superman">
         <button>hii</button>
-      </Greet>
-      <Greet name="jay" heroname="thor"></Greet>
+      </Greet> */}
+      {/* <Greet name="jay" heroname="thor"></Greet> */}
 
 
       <Welcome name="Hrishi"></Welcome>
       <Welcome name=" abhi"></Welcome>
-      <Welcome name="jay"></Welcome> */}
+      <Welcome name="jay"></Welcome>
       {/* <Hello></Hello> */}
 
    
