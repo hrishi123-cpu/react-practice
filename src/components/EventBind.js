@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react'
+
 import React, { Component } from 'react'
 
 // Event binding has four approches
@@ -41,11 +41,11 @@ import React, { Component } from 'react'
 
 
                 {/* Approch no 2 */}
-                {/* <button onClick={()=> this.Clickhandler()}>Click</button> */}  
+                <button onClick={()=> this.Clickhandler()}>Click</button>  
 
 
                    {/* Approch no 3 and 4  */}
-                <button onClick={ this.Clickhandler}>Click</button>
+                {/* <button onClick={ this.Clickhandler}>Click</button> */}
             </div>
         )
     }
