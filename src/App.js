@@ -10,6 +10,7 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import Namelist from './components/Namelist';
 
 
 class App extends Component{
@@ -39,7 +40,8 @@ class App extends Component{
       <ClassClick></ClassClick> */}
       {/* <EventBind></EventBind> */}
       {/* <ParentComponent></ParentComponent> */}
-      <UserGreeting></UserGreeting>
+      {/* <UserGreeting></UserGreeting> */}
+      <Namelist></Namelist>
 
    
     </div>
