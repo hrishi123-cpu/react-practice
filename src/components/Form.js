@@ -6,7 +6,7 @@ import React, { Component } from 'react'
      
          this.state = {
               username : '',
-              comments :'',
+              comments : '',
               topic: 'react'
          }
      }
@@ -48,6 +48,7 @@ import React, { Component } from 'react'
             <div>
                 <lable>Topic </lable>
                 <select value={this.state.topic} onChange={this.handleTopicChange}>
+                    
                     <option value="react">React</option>
                     <option value="angular">Angular</option>
                     <option value="vuet">Vue</option>
