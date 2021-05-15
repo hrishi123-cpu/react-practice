@@ -12,7 +12,6 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Namelist';
 
-
 class App extends Component{
     render(){
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Namelist() {
     const names =['hrishi','bala','jay']
-    const namelist = names.map(name => <h2>{name}</h2>) 
+    const namelist = names.map((name,index) => <h2 key={index}>{name}</h2>) //using INDEX as a KEY use when items do not have unique id
     return (
         <div>
             {
