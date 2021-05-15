@@ -16,6 +16,8 @@ import Inline from './components/Inline'
 import './appStyle.css'
 import styles from './appStyle.module.css'
 import Form from './components/Form'
+
+
 class App extends Component{
     render(){
   return (
@@ -24,7 +26,6 @@ class App extends Component{
         </Message> */}
         {/* <Count></Count> */}
       {/* <h1>Hello this is my first app </h1> */}
-
       {/* <Greet name="Hrishi" heroname="ironman">
         <p>This is children props</p>
       </Greet>
@@ -32,13 +33,11 @@ class App extends Component{
         <button>hii</button>
       </Greet> */}
       {/* <Greet name="jay" heroname="thor"></Greet> */}
-
 {/* 
       <Welcome name="Hrishi"></Welcome>
       <Welcome name=" abhi"></Welcome>
       <Welcome name="jay"></Welcome> */}
       {/* <Hello></Hello> */}
-
       {/* <FunctionClick></FunctionClick>
       <ClassClick></ClassClick> */}
       {/* <EventBind></EventBind> */}
@@ -49,7 +48,7 @@ class App extends Component{
       {/* <Inline></Inline> */}
       {/* <h1 className='error'> Error</h1>
       <h1 className={styles.success}> Success</h1> */}
-   <Form></Form>
+   {/* <Form></Form> */}
     </div>
   );
 }
