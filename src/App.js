@@ -19,6 +19,8 @@ import Form from './components/Form'
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
 
 
 class App extends Component{
@@ -53,8 +55,9 @@ class App extends Component{
       <h1 className={styles.success}> Success</h1> */}
    {/* <Form></Form> */}
    {/* <LifecycleA></LifecycleA> */}
-   <FragmentDemo></FragmentDemo>
-   <Table></Table>
+   {/* <FragmentDemo></FragmentDemo>
+   <Table></Table> */}
+   <ParentComp></ParentComp>
    
     </div>
   );
