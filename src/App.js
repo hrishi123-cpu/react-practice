@@ -21,6 +21,7 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 
 class App extends Component{
@@ -57,7 +58,8 @@ class App extends Component{
    {/* <LifecycleA></LifecycleA> */}
    {/* <FragmentDemo></FragmentDemo>
    <Table></Table> */}
-   <ParentComp></ParentComp>
+   {/* <ParentComp></ParentComp> */}
+   <RefsDemo></RefsDemo>
    
     </div>
   );
